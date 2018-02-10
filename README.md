@@ -3,7 +3,7 @@
 ```js
     require("clientside-view-loader")
         .then((view)=>{
-            return view.load("/_view/modal/signup_login").generate();
+            return view.load("clientside-view-modal-login_signup").generate();
         })
         .then((modal)=>{
             document.body.appendChild(modal);
