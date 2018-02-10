@@ -1,0 +1,42 @@
+{
+  "name": "clientside-view-modal-login_signup",
+  "version": "1.0.0",
+  "description": "a clientside view module which generates a login/signup modal with input extraction and clean toggle. utilizes clientside-view-loader modules.",
+  "main": "compiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uladkasach/clientside-view-modal-login_signup.git"
+  },
+  "keywords": [
+    "browser",
+    "clientside",
+    "client-side",
+    "frontend",
+    "front-end",
+    "view",
+    "views",
+    "html",
+    "css",
+    "clientside-module-manager",
+    "clientside-view-loader",
+    "view-loader",
+    "login",
+    "signup",
+    "ui",
+    "input"
+  ],
+  "author": "uladkasach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uladkasach/clientside-view-modal-login_signup/issues"
+  },
+  "homepage": "https://github.com/uladkasach/clientside-view-modal-login_signup#readme",
+  "dependencies": {
+    "clientside-view-button": "^1.0.0",
+    "clientside-view-input-text": "^1.0.1",
+    "clientside-view-loader": "^1.0.2"
+  }
+}
