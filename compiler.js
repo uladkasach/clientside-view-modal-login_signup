@@ -1,6 +1,5 @@
-var view_loader = require("clientside-view-loader", {functions : {
-    load : function(path){ return this.then((view_loader)=>{ return view_loader.load(path)})}, // define `view_loader.load()` to the view_loader promise
-}});
+var view_loader = require("clientside-view-loader");
+view_loader.load = function(path){ return this.then((view_loader)=>{ return view_loader.load(path)})} // define `view_loader.load()` to the view_loader promise
 
 module.exports = {
     generate : function(dom, options){
