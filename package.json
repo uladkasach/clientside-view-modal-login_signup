@@ -1,6 +1,6 @@
 {
   "name": "clientside-view-modal-login_signup",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "a clientside view module which generates a login/signup modal with input extraction and clean toggle. utilizes clientside-view-loader modules.",
   "main": "compiler.js",
   "scripts": {

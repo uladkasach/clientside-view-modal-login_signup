@@ -1,4 +1,4 @@
-var view_loader = require("clientside-view-loader");
+var view_loader = load("clientside-view-loader");
 view_loader.load = function(path){ return this.then((view_loader)=>{ return view_loader.load(path)})} // define `view_loader.load()` to the view_loader promise
 
 module.exports = {
