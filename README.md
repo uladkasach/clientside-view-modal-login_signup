@@ -1,10 +1,8 @@
 # clientside-view-modal-login_signup
 
 ```js
-    require("clientside-view-loader")
-        .then((view)=>{
-            return view.load("clientside-view-modal-login_signup").generate();
-        })
+    load("clientside-view-loader")
+        .then(view=>view.load("clientside-view-modal-login_signup").build());
         .then((modal)=>{
             document.body.appendChild(modal);
             modal.show("login");

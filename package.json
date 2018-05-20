@@ -1,6 +1,6 @@
 {
   "name": "clientside-view-modal-login_signup",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a clientside view module which generates a login/signup modal with input extraction and clean toggle. utilizes clientside-view-loader modules.",
   "main": "compiler.js",
   "scripts": {
@@ -35,8 +35,15 @@
   },
   "homepage": "https://github.com/uladkasach/clientside-view-modal-login_signup#readme",
   "dependencies": {
-    "clientside-view-button": "^1.2.2",
-    "clientside-view-input-text": "^1.3.7",
-    "clientside-view-loader": "^1.3.2"
+    "clientside-require": "^4.3.0",
+    "clientside-view-button": "^1.2.3",
+    "clientside-view-input-text": "^1.3.8",
+    "clientside-view-loader": "^2.0.2"
+  },
+  "components": "src",
+  "devDependencies": {
+    "jsdom": "^11.10.0",
+    "mocha": "^5.2.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
